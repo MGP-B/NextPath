@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Merri;
+    src: url(/src/fuentes/Merriweather/static/Merriweather_120pt-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+}
+
+header .logo {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    margin-right: 70%;
+}
+
+header h2 {
+    font-size: 2vw;
+    font-family: Merri;
+}
+
+header a {
+    font-size: 2vw;
+}
